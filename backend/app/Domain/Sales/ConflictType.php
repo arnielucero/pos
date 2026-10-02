@@ -1,0 +1,16 @@
+<?php
+
+declare(strict_types=1);
+
+namespace App\Domain\Sales;
+
+enum ConflictType: string
+{
+    case PRICE_MISMATCH = 'PRICE_MISMATCH';
+    case DISCOUNT_UNAUTHORIZED = 'DISCOUNT_UNAUTHORIZED';
+    case PRODUCT_INACTIVE = 'PRODUCT_INACTIVE';
+    case NEGATIVE_STOCK = 'NEGATIVE_STOCK';
+    case TAX_MISMATCH = 'TAX_MISMATCH';
+    case DUPLICATE_RECEIPT_NUMBER = 'DUPLICATE_RECEIPT_NUMBER';
+    case REGISTER_TOTALS_MISMATCH = 'REGISTER_TOTALS_MISMATCH';
+}

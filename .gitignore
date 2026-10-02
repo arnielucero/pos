@@ -1,0 +1,6 @@
+# Repo-level ignores (app/ and backend/ have their own .gitignore files)
+.DS_Store
+.idea/
+.vscode/
+*.log
+entry.txt
