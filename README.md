@@ -1,4 +1,4 @@
-# HMR POS — offline-first Android tablet POS
+# POS — offline-first Android tablet POS
 
 An Android tablet point-of-sale and inventory app that keeps selling without internet and syncs
 safely with a Laravel backend when the connection comes back.
